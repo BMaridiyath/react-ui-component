@@ -1,0 +1,34 @@
+{
+  "name": "react-library",
+  "version": "1.0.0",
+  "description": "A react component library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": "Maridiyath & Thomas",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.19",
+    "react": "^18.2.0",
+    "rollup": "^3.27.2",
+    "rollup-plugin-dts": "^5.3.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/BMaridiyath"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
